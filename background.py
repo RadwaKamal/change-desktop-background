@@ -13,7 +13,7 @@ def get_image():
     img_api_url = urllib.urlopen("https://source.unsplash.com/category/nature")
     #download the image
     img_path = os.path.expanduser('~') + '/Pictures/bg.jpg'
-    img_file = open(os.path.expanduser('~') + '/Pictures/bg.jpg', 'wb')
+    img_file = open(img_path, 'wb')
     img_file.write(img_api_url.read())
     img_file.close()
     return img_path
