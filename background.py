@@ -30,7 +30,7 @@ def change_background():
     while True:
         change_background()
         #change background every 12 hrs
-        time.sleep(1)
+        time.sleep(43200)
 
 if __name__ == "__main__":
     try:
