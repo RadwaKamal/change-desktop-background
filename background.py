@@ -36,4 +36,5 @@ if __name__ == "__main__":
     try:
         change_background()
     except KeyboardInterrupt:
+        #print a message when using CTRL+C to exit
         print 'exit'
